@@ -7,3 +7,6 @@
 &emsp;&emsp;我个人的关于神经网络的经验是，当我开始忽略整页的密集的反向传播等式原理，开始写代码时，所有的事情都清晰了很多。因此，这篇教程将包含很少的数学内容(我认为它是没有必要的并且它有时候甚至会使一些简单的概念变模糊)。尽管的我的背景是计算机科学和物理学，但我会从作为hackers的视角来开展这个话题。我的阐述将以代码和本质的知识为中心而不是数学的原理。基本的，我将尽量以这种方式在呈现算法，就是我希望当我开始时，这些算法是我之前已经接触过的。
 
     “…everything became much clearer when I started writing code.”
+&emsp;&emsp;你可能急着想跳过这里，去学习如何在实践中把习神经网络，反向传播应用到数据集。但是在开始之前，我希望我们先忘掉那些。让我先后退一步，理解我们要做的核心是什么。首先我们来讨论real-valued circuits.
+
+&emsp;&emsp;更新说明：我之前暂停了本指南的工作，并将很多精力重新引向斯坦福大学CS231n（卷积神经网络）课堂。 笔记在[cs231.github.io](http://cs231n.github.io/)上，课程幻灯片可以在[这里](http://cs231n.stanford.edu/syllabus.html)找到。 These materials are highly related to material here, but more comprehensive and sometimes more polished.
